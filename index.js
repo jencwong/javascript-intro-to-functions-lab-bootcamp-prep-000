@@ -19,6 +19,5 @@ before(function(done) {
   if (sayHiToGrandma(string.toLowerCase)) {
   return string.toEqual("I can't hear you!");
   }
-}
-
+})
 
